@@ -19,7 +19,7 @@ class TestMain
     public function new()
     {
         var suites = new Array<Class<massive.munit.TestSuite>>();
-        suites.push(TestSuite);
+        suites.push(massive.munit.TestSuite);
 
         #if MCOVER
 	        var client = new mcover.coverage.munit.client.MCoverPrintClient();

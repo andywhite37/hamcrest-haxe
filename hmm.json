@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    {
+      "name": "munit",
+      "type": "haxelib",
+      "version": "2.3.3"
+    }
+  ]
+}
